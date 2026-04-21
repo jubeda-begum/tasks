@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://task-manager-backend-fzwf.onrender.com";
 function App() {
   const [tasks, setTasks] = useState([]);
   const [taskTitle, setTaskTitle] = useState("");
